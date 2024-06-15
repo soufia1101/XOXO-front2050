@@ -1,0 +1,30 @@
+:root{
+    --primary:#3B2A9F;
+    --secondary:#FA8305;
+    --black:#1C140F;
+    --red:#CB1111;
+}
+
+.body{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    background-color :var(--black);
+    margin : 2px;
+    justify-content: center;
+    border: none;
+}
+
+.body:hover{
+    background-color: black;
+    transition: 0.3s;
+}
+
+.body:active{
+    background-color: #262e38;
+}
+
+.body img{
+    margin: 45px;
+}

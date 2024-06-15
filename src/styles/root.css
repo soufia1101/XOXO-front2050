@@ -1,0 +1,35 @@
+:root{
+    --primary:#3B2A9F;
+    --secondary:#FA8305;
+    --black:#1C140F;
+    --red:#CB1111;
+}
+
+.root{
+    background-color: var(--primary);
+    height: 700px;
+}
+
+.root h1{
+    margin-top: 40px;
+    margin-bottom: 200px;
+}
+
+button{
+    border-radius: 30px;
+    padding: 5px  100px;
+    border: none;
+}
+
+.startbtn{
+    background-color: var(--secondary);
+}
+
+.scoresbtn{
+    background-color: var(--primary);
+}
+
+p{
+    color: var(--secondary);
+    margin-top: 100px;
+}

@@ -1,0 +1,37 @@
+:root{
+    --primary:#3B2A9F;
+    --secondary:#FA8305;
+    --black:#1C140F;
+    --red:#CB1111;
+}
+
+.login{
+    background-color: var(--primary);
+}
+
+.login input{
+    border-radius: 10px;
+    background-color: var(--primary);
+    border-width: 3px;
+    border-color: var(--black);
+}
+
+.login input:focus{
+    background-color: var(--primary);
+    border-width: 3px;
+    border-color: var(--black);
+  
+}
+
+.login input::placeholder{
+    color: white;
+}
+
+.login button{
+    border-radius: 10px;
+    background-color: var(--secondary); 
+}
+
+.login h2{
+    color: var(--secondary);
+}
